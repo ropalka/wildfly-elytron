@@ -75,7 +75,7 @@
             <xsd:element name="key-store-ssl-certificate" type="key-store-ssl-certificate-type" minOccurs="0"/>
             <xsd:element name="trust-store" type="trust-store-ref-type" minOccurs="0"/>
             <xsd:element name="trust-manager" type="trust-manager-type" minOccurs="0"/>
-            <xsd:element name="cipher-suite" type="selector-type" minOccurs="0">
+                <xsd:element name="cipher-suite" type="selector-type" minOccurs="0">
                 <xsd:annotation>
                     <xsd:documentation>
                         Configuration to filter the enabled cipher suites. 
