@@ -48,7 +48,7 @@ import org.wildfly.security.auth.server.RealmUnavailableException;
 @ValidIdRanges({
     @ValidIdRange(min = 1066, max = 1077),
     @ValidIdRange(min = 4001, max = 4031),
-    @ValidIdRange(min = 5015, max = 5017)
+    @ValidIdRange(min = 5015, max = 5018)
 })
 interface ElytronMessages extends BasicLogger {
 
