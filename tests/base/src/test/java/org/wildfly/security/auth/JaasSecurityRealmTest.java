@@ -42,6 +42,7 @@ import org.wildfly.security.evidence.X509PeerCertificateChainEvidence;
  * @author <a href="mailto:sguilhen@redhat.com">Stefan Guilhen</a>
  */
 // has dependency on wildfly-elytron-auth-server, wildfly-elytron-realm, wildfly-elytron-credential
+@org.junit.Ignore
 public class JaasSecurityRealmTest {
 
     @BeforeClass
